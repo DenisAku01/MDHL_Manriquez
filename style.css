@@ -4,7 +4,9 @@
     box-sizing: border-box;
     }
 
-
+body{
+    background-color: #ededed;
+}
 .portada{
     position: relative;
     margin: -1px;
@@ -18,18 +20,36 @@ div>img {
 }
 nav{
     position: absolute;
-    right: 4%;
-    top: 4%;
+    top: -7px;
+    left: 75%;
 
 
 }
+nav>a:hover{
+    background-color: rgb(74, 184, 138);
+}
 .item{
+
     background-color: rgb(113, 118, 206);
     margin: 4px;
     border: 1px solid black;
     text-decoration: none;
     color: white;
+    -webkit-box-shadow: 7px 9px 5px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 9px 5px -1px rgba(0,0,0,0.75);
+box-shadow: 7px 9px 5px -1px rgba(0,0,0,0.75);
 }
+.active{
+    background-color: rgb(74, 184, 138);
+    margin: 4px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: white;
+    -webkit-box-shadow: 7px 9px 5px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 9px 5px -1px rgba(0,0,0,0.75);
+box-shadow: 7px 9px 5px -1px rgba(0,0,0,0.75);
+}
+
 
 .articulos{
     position: relative;
@@ -41,24 +61,38 @@ nav{
 .lugar{
     border: 2px solid black;
     margin-top: 0px;
+    text-align: center;
 }
 .logo{
+
+    display: inline-block;
     position: absolute;
-    left: 0%;
+    right: 90%;
+    width: 100px;
 
 }
 .tarjeta{
     position: relative;
-    left: 10%;
+    display: inline-block;
+    margin: 6px;
     text-align: start;
-    margin: 8px;
+    padding-left: 7rem;
+    width: 70vw;
 
 }
 .fecha{
     margin: 0px;
 }
 .imagenes{
-    position: relative;
-    left: 40%;
+    object-fit: cover;
+    height: 70%;
+    width: 100%;
+
+}
+.contactame{
+    display: inline-block;
+    margin: 2rem;
+    padding-left: 20rem;
+    width: 70vw;
 
 }

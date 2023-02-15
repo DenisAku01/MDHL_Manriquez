@@ -34,6 +34,8 @@ nav>a{
 nav>a:hover{
     background-color: rgb(74, 184, 138);
 }
+
+
 .item{
 
     background-color: rgb(113, 118, 206);
@@ -58,33 +60,35 @@ box-shadow: 7px 9px 5px -1px rgba(0,0,0,0.75);
 
 
 .articulos{
-    position: relative;
+    display: flex;
     background-color: floralwhite;
-    text-align: center;
-    margin: -1;
+    border: 1px solid blue;
+    flex-wrap: wrap;
+    flex-direction: column;
 
 }
 .lugar{
+    justify-content: flex-start;
+    align-items: center;
     border: 2px solid black;
-    margin-top: 0px;
+    margin-top: 0px; 
+    height: min-content ;
+    width: 100%;
     text-align: center;
 }
 .logo{
-
-    display: inline-block;
-    position: absolute;
-    right: 90%;
-    width: 100px;
-
+    border: 2px solid brown;
+    width: 5rem;
+    height: 5rem;
 }
-.tarjeta{
-    position: relative;
-    display: inline-block;
-    margin: 6px;
-    text-align: start;
-    padding-left: 7rem;
-    width: 70%;
 
+.contenedor{
+    display: flex ;
+    width: 100%;
+    background-image: url("./assets/hockey_1.jpg");
+    object-fit: contain;
+    height: 50vh;
+    
 }
 .fecha{
     margin: 0px;
@@ -97,19 +101,26 @@ box-shadow: 7px 9px 5px -1px rgba(0,0,0,0.75);
 
 }
 .contactame{
-    display: inline-block;
-    margin: 2rem;
-    
-    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-left: 1rem;
 
 }
 
 .tarjeta1{
-    position: relative;
-    display: inline-block;
-    margin: 6px;
-    text-align: start;
-    padding-left: 20rem;
-    width: 70vw;
+    
+    margin: 10px 0px;
+    border: 1px solid cadetblue;
+    padding: 5px;
+    background-color: rgba(245, 245, 220, 0.505);
 
+
+}
+
+.mastercard{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 5px;
 }

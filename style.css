@@ -145,3 +145,13 @@ table{
     padding: 30px;
     text-align: center;
 }
+
+.listaDePoliticas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid red;
+    height: 50vh;
+    
+    
+}

@@ -123,3 +123,25 @@ box-shadow: 7px 9px 5px -1px rgba(0,0,0,0.75);
     width: 80%;
     margin: 5px;
 }
+
+.conteinerRules{
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    justify-self: center;
+}
+
+th{
+    background-color: burlywood;
+    color: black;
+    
+}
+table{
+    background-color: blanchedalmond;
+    padding: 3px;
+}
+
+.titulo{
+    padding: 30px;
+    text-align: center;
+}

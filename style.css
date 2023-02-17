@@ -64,6 +64,7 @@ box-shadow: 7px 9px 5px -1px rgba(0,0,0,0.75);
     background-color: floralwhite;
     flex-wrap: wrap;
     flex-direction: column;
+    
 
 }
 .lugar{
@@ -130,6 +131,7 @@ box-shadow: 7px 9px 5px -1px rgba(0,0,0,0.75);
     border: 1px solid black;
     justify-content: center;
     justify-self: center;
+
 }
 
 th{
@@ -195,8 +197,55 @@ fieldset{
 }
 
 iframe{
-    width:600;
-    height:450; 
-    border:0;
+    width:497px;
+    height:246px; 
+    border:0px;
+    border-radius: 1rem;
+}
+
+#mapas{
+    background-color: blanchedalmond;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+}
+main>section>article{
+    border: 2px solid peru;
+    width: 500px;
+    height: 250px;
+    border-radius: 1rem;
+    display: flex;
+
+
+    
+}
+main>section>article>h3{
+    display: flex;
+    
+    align-items: center;
+    gap: 1rem;
+}
+
+main>section>h2{
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 0px; 
+    height: min-content ;
+    width: 100%;
+    text-align: center;
+    background-color: #ededed;
+}
+
+.contenedorContactame{
+    display: flex ;
+    width: 100%;
+    background-image: url("./assets/hockey_1.jpg");
+    object-fit: contain;
+    height: 70vh;
+    flex-direction: column;
     
 }
